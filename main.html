@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary cont1 ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white pad" href="#">Skillify</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-1 mb-lg-0 cont2">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white pad2" id="Home" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white pad2" id="Videos" href="#">Our Videos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white pad2" id="Support" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Support
+                        </a>
+
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white pad2" id="Customers" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Customers
+                        </a>
+                        
+                        <button type="button" class="btn btn-primary btn1" id="SignUp">Sign Up for Free</button>
+                    </li>
+                    <select id="languageSelector" onchange="switchLanguage()">
+                        <option value="en">English</option>
+                        <option value="es">Spanish</option>
+                        <!-- Add more language options as needed -->
+                      </select>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="cont2">
+        <div class="text-nowrap text-white sec1" id="text1">
+            There's a better way to train
+        </div>
+        <div class=" text-white sec2">
+            <span id="text2">Deliver the learning experience your team deserves with AI Create.</span><br>
+            <div class=" text-white sec3" id="text3">No brainstorm, research, or strike of inspiration necessary.</div>
+        </div>
+        <button type="button" class="btn btn-primary btn2" id="start">Get Started free</button>
+    </div>
+    <div class="cont3">
+        <div class="text-center img1set">
+            <img src="img1.png" class="img-fluid" alt="" />
+        </div>
+    </div>
+    <div class="cont4">
+        <h1>Most Popular Certificates</h1>
+        <div class="cont4-sec">
+            <div class="card ">
+                <img class="card-img-top"
+                    src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_11_Leadership-Skills.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card" >
+                <img class="card-img-top"
+                    src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_11_Leadership-Skills.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_11_Leadership-Skills.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_11_Leadership-Skills.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_11_Leadership-Skills.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_11_Leadership-Skills.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <!-- <div class="video-section">
+            <div class="card-body">
+              <video controls class="video-control">
+                <source src="video.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+    </div> -->
+        <div class="search-container">
+            <h1 class="text-center my-4 heading4">Search 7000+ courses in Skillify</h1>
+
+            <!-- Search Bar -->
+            <div class="input-group mb-3 search-sec1">
+                <input type="text" class="form-control" placeholder="eg. Machine Learning">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </div>
+            </div>
+
+            <!-- Filter Options -->
+            <div class=" filter" role="group" aria-label="Filter options">
+                <button type="button" class="btn btn-secondary fsec">Machine Learning</button>
+                <button type="button" class="btn btn-secondary fsec">Cloud Computing</button>
+                <button type="button" class="btn btn-secondary fsec">Artificial Intelligence</button>
+                <button type="button" class="btn btn-secondary fsec">Python</button>
+                <button type="button" class="btn btn-secondary fsec">Java</button>
+                <button type="button" class="btn btn-secondary fsec">Computer Vision</button>
+                <button type="button" class="btn btn-secondary fsec">Korean</button>
+                <!-- Add more filter options as needed -->
+            </div>
+        </div>
+
+        <div class="specific1">
+            <h2 class="text-center my-4 specific1-title">Why Choose Skillify Courses?</h2>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="pic1.jpg" alt="Image" class="img-fluid">
+                </div>
+                <div class="specific-sec">
+
+                    <h1 class="heading1">Get Personalized Guidance</h1><br>
+                    <p class="specific-subsec1">
+                        Weekly mentorship sessions with Industry Experts along with <br> Personalized attention in small
+                        groups of 5-15 learners. Gain<br> hands-on exposure through industry-relevant projects.
+                    </p>
+                    <div class="specific-subsec2">
+                        <span class="icon1"><img src="tick.svg"></span>
+                        <span class="icon2"><img src="star.svg"></span>
+                        <span class="icon3">2,00,000+</span>
+                        <span class="icon4">4.7/5</span>
+                        <span class="icon5">Mentorship Sessions Completed</span>
+                        <span class="icon6">Average Mentor Rating</span>
+                        <button type="button" class="btn btn-primary specific1-button">VIEW EXPERIENCE</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="specific2">
+            <div class="container2">
+                <div class="section2">
+                  <div class="left">
+                    <h1 class="heading2">GL Excelerate Dedicated Career Support</h1>
+                    <p class="specific2-subset">We offer mock interviews to prep for your dream job. Participate in hackathons and career fairs to stay ahead of others.</p>
+                    <span class="icon7"><img src="work-outline.svg"></span>
+                    <span class="icon8">3100+</span>
+                    <span class="icon9">Hiring Companies</span>
+                    <button type="button" class="btn btn-primary specific2-button">LEARN MORE</button>
+                  </div>
+        
+                  <div class="right">
+                    <img src="pic2.jpg" alt="Image">
+                  </div>
+                </div>
+              </div>
+
+        </div>
+        <div class="banner">
+            <div>Providing online education for</div>
+            <h1 class="heading3">Learners across 170+ countries</h1>
+            <img src="learners-banner.png">
+        </div>
+
+        <footer class="footer">
+            <div class="container footer-content">
+              <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                  <li>Email: hephzibahranjan@gmail.com</li>
+                  <li>Phone: 9890723589</li>
+                  <li>Address: Bhubaneswar, Odisha, India</li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="footer-social-icons">
+                  <a href="#" target="_blank">F</a>
+                  <a href="#" target="_blank">T</a>
+                  <a href="#" target="_blank">I</a>
+                  <!-- Add more social media icons as needed -->
+                </div>
+              </div>
+            </div>
+          </footer>
+         
+          <script src="main.js"></script>
+
+</body>
+
+</html>
